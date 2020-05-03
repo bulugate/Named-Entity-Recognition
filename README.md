@@ -1,22 +1,32 @@
-# Sentimental-Analysis-using-LSTM
+# Named-Entity-Recognition using LSTMs with Keras
 
-Done Sentimental Analysis using LSTM.
+A keras implementation of Bidirectional-LSTM for Named Entity Recognition.
+
+Trained a Bidirectional LSTM Neural Network to recognize named entities in text data.
 
 
-### Problem Overcame
+## Data Preparation (optional)
 
-The removal of stopwords sometimes leads to ambiguity for a model and the model underperforms for certain cases.
-
-So by using LSTM which keep the sequence of words in a sentence improved the model performance in these cases.
+The [dataset](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus#ner_dataset.csv) is available as a single csv file.
 
 ### Technologies Used
 ```
-1.RNN/LSTM
+1.Bidirectional LSTM
 
 2.Keras
 
 3.Tensorflow
+
+4.Python
 ```
+
+### Result
+
+This was the graph we obtained after training the Neural Network.
+
+<img src ="graph.PNG"  width=700 height=500>
+<br>
+
 
 ### Author 
 ```

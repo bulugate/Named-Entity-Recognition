@@ -28,7 +28,3 @@ This was the graph we obtained after training the Neural Network.
 <br>
 
 
-### Author 
-```
-Rahul Kumar Patro
-```
